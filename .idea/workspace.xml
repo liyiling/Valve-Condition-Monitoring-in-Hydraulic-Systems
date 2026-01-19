@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56d3d6b9-a657-4e05-ac5a-52755127824f" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/.idea/yiling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/0_data_exploration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/1_traditional_ml/descion_tree_yiling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/1_traditional_ml/xxx_Boos.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/1_traditional_ml/xxx_Strobel.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/2_deeplearning/inceptiontime_yiling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/2_deeplearning/xxx_Boos.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/2_deeplearning/xxx_Strobel.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/config/sensors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/CE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/CP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/EPS1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/FS1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/FS2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/PS1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/PS2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/PS3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/PS4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/PS5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/PS6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/SE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/TS1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/TS2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/TS3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/TS4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/VS1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/documentation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/data/condition+monitoring+of+hydraulic+systems/profile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Abschlussprüfung/yiling/src/data_loader.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Abschlussprüfung/yiling" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="38MREWpR4LGHhaYRArISKtbbX22" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dl" />
+      <recent name="$PROJECT_DIR$/traditional_dl" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56d3d6b9-a657-4e05-ac5a-52755127824f" name="Changes" comment="" />
+      <created>1768607341789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768607341789</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
