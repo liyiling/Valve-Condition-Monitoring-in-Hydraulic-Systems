@@ -3,7 +3,11 @@ import pandas as pd
 import json
 
 
-BASE_DATA_DIR = Path("data/condition+monitoring+of+hydraulic+systems")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+BASE_DATA_DIR = PROJECT_ROOT / "data" / "condition+monitoring+of+hydraulic+systems"
+DEFAULT_CONFIG_PATH = PROJECT_ROOT / "config" / "sensors.json"
+
 
 def read_file_to_df(filename: str) -> pd.DataFrame:
     return pd.read_csv(
@@ -12,14 +16,13 @@ def read_file_to_df(filename: str) -> pd.DataFrame:
         header=None
     )
 
-def load_sensor_data(config_path="config/sensors.json"):
-    with open(config_path, "r") as f:
+def load_sensor_data(config_path: str | Path = DEFAULT_CONFIG_PATH):
+    config_path = Path(config_path)  # str oder Path
+
+    with open(config_path, "r", encoding="utf-8") as f:
         sensor_files = json.load(f)
 
-    return {
-        name: read_file_to_df(fname)
-        for name, fname in sensor_files.items()
-    }
+    return {name: read_file_to_df(fname) for name, fname in sensor_files.items()}
 
 '''
 Es gibt 2205 Messungen. 
