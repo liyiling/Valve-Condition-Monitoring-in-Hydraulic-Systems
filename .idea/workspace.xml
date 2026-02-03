@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56d3d6b9-a657-4e05-ac5a-52755127824f" name="Changes" comment="Abschlussprojekt erstellen">
+    <list default="true" id="56d3d6b9-a657-4e05-ac5a-52755127824f" name="Changes" comment=" Projekt erstellen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_deeplearning/1770136289398323000.keras" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2_deeplearning/inceptiontime_yiling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2_deeplearning/inceptiontime_yiling.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/liyiling/Documents/Albstadt-Studium/2025WW/Python-Advanced-Herr Seidler/Abschlussprüfung/yiling",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.28409094"
   }
 }]]></component>
@@ -108,13 +107,22 @@
       <option name="project" value="LOCAL" />
       <updated>1768835926349</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" Projekt erstellen">
+      <option name="closed" value="true" />
+      <created>1770137645084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770137645084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="Abschlussprojekt erstellen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abschlussprojekt erstellen" />
+    <MESSAGE value=" Projekt erstellen" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Projekt erstellen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
