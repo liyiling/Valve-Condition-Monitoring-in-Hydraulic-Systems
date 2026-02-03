@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56d3d6b9-a657-4e05-ac5a-52755127824f" name="Changes" comment="Abschlussprojekt erstellen">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_data_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/0_data_exploration.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_traditional_ml/descion_tree_yiling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1_traditional_ml/descion_tree_yiling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_traditional_ml/xxx_Boos.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_traditional_ml/xxx_Strobel.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_deeplearning/1770136289398323000.keras" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2_deeplearning/inceptiontime_yiling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2_deeplearning/inceptiontime_yiling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_deeplearning/xxx_Boos.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_deeplearning/xxx_Strobel.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_loader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "liyiling"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/liyiling/Valve-Condition-Monitoring-in-Hydraulic-Systems.git",
+    "accountId": "b64eba72-1a28-469f-870a-5e9e97c52ce2"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <hideBySeverity>
       <option value="11" />
@@ -60,19 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/liyiling/Documents/Albstadt-Studium/2025WW/Python-Advanced-Herr Seidler/Abschlussprüfung/yiling&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28409094&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.data_loader.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/liyiling/Documents/Albstadt-Studium/2025WW/Python-Advanced-Herr Seidler/Abschlussprüfung/yiling",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.splitter.proportion": "0.28409094"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dl" />
