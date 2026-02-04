@@ -110,6 +110,7 @@ Trained model checkpoints are stored as .keras files.
     - Reduce sensor dimensionality
     
 - Ergebniss von Ablation des Desicion Tree:
+```text
 | removed_sensor | mean_bal_acc | delta_vs_baseline | std_bal_acc |
 |----------------|--------------|-------------------|-------------|
 | PS2            | 0.816481     | -0.093148         | 0.013351    |
@@ -131,7 +132,7 @@ Trained model checkpoints are stored as .keras files.
 | PS4            | 0.914259     | 0.004630          | 0.003072    |
 | FS1            | 0.936759     | 0.027130          | 0.029910    |
 
-
+```
 
 # How to Run
 - Create and activate a virtual environment
@@ -166,6 +167,7 @@ Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 un
 - Zusammenfassung
     - PS2 mit wenigen, gut gewählten statistischen Merkmalen erweist sich als robuster, stabiler und leistungsfähiger als eine umfangreiche Feature-Extraktion mit tsfresh.
     - In diesem Projekt bringt komplexe Merkmalsextraktion keinen Vorteil gegenüber einfachen, domänennahen statistischen Features.
+
 
 
 
