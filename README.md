@@ -47,10 +47,10 @@ The project investigates both traditional machine learning and deep learning (In
 The dataset is based on the Condition Monitoring of Hydraulic Systems dataset. <br/>
 It consists of multivariate sensor measurements (pressure, temperature, flow, etc.) recorded during hydraulic system operation. <br/>
 
-Raw data is stored in: <br/>
-data/condition+monitoring+of+hydraulic+systems/ <br/>
+- Raw data is stored in: 
+data/condition+monitoring+of+hydraulic+systems/ 
 
-Sensor configuration is defined in: <br/>
+- Sensor configuration is defined in: <br/>
 config/sensors.json <br/>
 
 # Traditional Machine Learning
@@ -66,5 +66,6 @@ Sensor ablation study to analyze sensor importance <br/>
 Files:
 PS2_raw_long.csv: raw sensor signal <br/>
 PS2_tsfresh_features.csv: extracted features <br/>
+
 
 
