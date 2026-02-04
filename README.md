@@ -137,4 +137,9 @@ Mit PS2 und 9 ausgewählten deskriptiven statistischen Merkmalen erzielt der Dec
     - Nach zusätzlicher Feature Selection:
           - Mit SelectFromModel: durchschnittliche Genauigkeit 88,13 %
           - Mit RFECV: durchschnittliche Genauigkeit 90,05 %
-Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 und 9 einfachen statistischen Merkmalen erzielt wurde.
+Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 und 9 einfachen statistischen Merkmalen erzielt wurde.<br/>
+
+- Zusammenfassung
+    - PS2 mit wenigen, gut gewählten statistischen Merkmalen erweist sich als robuster, stabiler und leistungsfähiger als eine umfangreiche Feature-Extraktion mit tsfresh.
+    - In diesem Projekt bringt komplexe Merkmalsextraktion keinen Vorteil gegenüber einfachen, domänennahen statistischen Features.
+
