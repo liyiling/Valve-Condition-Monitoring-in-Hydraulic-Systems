@@ -1,6 +1,8 @@
 # 
 
 # Projekt Struktur：
+
+```text
 .
 ├── 0_data_exploration.ipynb
 │   └── Initial data analysis and visualization
@@ -38,5 +40,7 @@
     └── Project documentation
 
 
+
 #
+
 
