@@ -140,11 +140,11 @@ Trained model checkpoints are stored as .keras files.
 ```
 
 - Ergebniss von Ablation des Inceptiontime:
-      - "splits_menge": 3,
-      - "n_epochs": 60,
-      - "batch_size": 16,
-      - "n_classifiers": 1,
-      - "verbose": 0,
+      - splits_menge: 3,
+      - n_epochs: 60,
+      - batch_size: 16,
+      - n_classifiers: 1,
+      - verbose: 0,
 
 ```text
 | removed_sensor | mean_bal_acc | std_bal_acc | mean_f1_macro | std_f1_macro | mean_f1_weighted | std_f1_weighted | delta_bal_vs_baseline | delta_f1_macro_vs_baseline | delta_f1_weighted_vs_baseline |
@@ -203,6 +203,7 @@ Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 un
 - Zusammenfassung
     - PS2 mit wenigen, gut gewählten statistischen Merkmalen erweist sich als robuster, stabiler und leistungsfähiger als eine umfangreiche Feature-Extraktion mit tsfresh.
     - In diesem Projekt bringt komplexe Merkmalsextraktion keinen Vorteil gegenüber einfachen, domänennahen statistischen Features.
+
 
 
 
