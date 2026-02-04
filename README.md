@@ -117,3 +117,24 @@ Trained model checkpoints are stored as .keras files.
     - 1_traditional_ml/descion_tree_yiling.ipynb
     - 2_deeplearning/inceptiontime_yiling.ipynb
 
+# Decision Tree – Experimental Conclusions
+- Sensor Importance
+    - Sensor PS2 ist der wichtigste Sensor im gesamten Projekt.
+    - Bereits die Verwendung von nur PS2 ist ausreichend, um ein gut performendes Decision-Tree-Modell zu trainieren.
+Mit PS2 und 9 ausgewählten deskriptiven statistischen Merkmalen erzielt der Decision Tree die beste Leistung. Die durchschnittliche Genauigkeit liegt bei ca. 97 %.
+
+- Ergebnisse mit tsfresh
+    - Der Einsatz von tsfresh liefert in diesem Projekt schwächere Ergebnisse als erwartet, selbst wenn nur der wichtigste Sensor PS2 verwendet wird.
+    - Vorgehensweise mit tsfresh:
+          1. Es wurde nur PS2 für die Merkmalsextraktion mit tsfresh verwendet, wodurch zunächst 777 Features generiert wurden.
+          2. Anschließend wurden notwendige Vorverarbeitungsschritte durchgeführt:
+              - Behandlung invalider Werte
+              - Entfernen von Features ohne Varianz→ dadurch blieben 426 Features übrig.
+              - Danach wurden dreimalige Train-Test-Splits sowie eine Normalisierung (Scaling) durchgeführt.
+
+- Ergebnisse:
+    - Ohne Feature Selection, aber mit normalisierten tsfresh-Features, wurde eine durchschnittliche Genauigkeit von 87,43 % erreicht.
+    - Nach zusätzlicher Feature Selection:
+          - Mit SelectFromModel: durchschnittliche Genauigkeit 88,13 %
+          - Mit RFECV: durchschnittliche Genauigkeit 90,05 %
+Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 und 9 einfachen statistischen Merkmalen erzielt wurde.
