@@ -18,11 +18,9 @@ The project investigates both traditional machine learning(Desicion Tree) and de
 - import src.data_loader as dl
 - importlib.reload(dl)
 - import tensorflow as tf
-
-
-import inspect
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score
+- import inspect
+- from sklearn.model_selection import train_test_split
+- from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score
 
 # Projekt Structur：
 
@@ -225,6 +223,7 @@ Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 un
 - Zusammenfassung
     - PS2 mit wenigen, gut gewählten statistischen Merkmalen erweist sich als robuster, stabiler und leistungsfähiger als eine umfangreiche Feature-Extraktion mit tsfresh.
     - In diesem Projekt bringt komplexe Merkmalsextraktion keinen Vorteil gegenüber einfachen, domänennahen statistischen Features.
+
 
 
 
