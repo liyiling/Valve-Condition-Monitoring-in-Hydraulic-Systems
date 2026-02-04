@@ -225,7 +225,14 @@ Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 un
     - In diesem Projekt bringt komplexe Merkmalsextraktion keinen Vorteil gegenüber einfachen, domänennahen statistischen Features.
 
 
-
+# Inceptiontime – Experimental Conclusions
+- Sensor Importance:
+  - Durch den Ablation Experiments bekommen wir verschiedene Rankings der Wichtigkeit den Sensoren.
+  - Ich würde die 8 Sensoren, laut Korrelationsanalyse von Herr Boos, also "PS1","PS2","PS4","EPS1","FS1","TS1","CE","SE".
+ 
+- Ergebnisse:
+  - Epoch 60 ist schon ausreichend: Der Trainingsverlust sinkt gleichmäßig und konvergiert(bei epochs ca.50,60) gegen null, während die Trainingsgenauigkeit sehr schnell Werte nahe 1.0 erreicht.
+  - Epoch 120 und classifier 2 bekommen wir deutliche overfitting.
 
 
 
