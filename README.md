@@ -110,6 +110,11 @@ Trained model checkpoints are stored as .keras files.
     - Reduce sensor dimensionality
     
 - Ergebniss von Ablation des Desicion Tree:
+    - ohne PS5,EPS1,PS4,FS1,VS1 bekommen wir sogar bessere Ergebnisse,es bedeutet, die 5 Sensoren werden bei Desicion Tree Training entfernt.
+    - ohne PS2 bekommen wir die schlechste Ergebnisse, es bedeutet, PS2 ist am wichtigsten.
+    - Danach habe ich PS2 und eine andere Sensor von den übrigen 11 Sensoren Kombination gemacht, zeigt PS2-TS2-Kombination ist am besten.
+    - Aber die Optimierung der PS2-TS2-Kombination ist nicht signifikant, also p wert ist größer als 0.05.
+    - Zum Schluss habe ich PS2 ausgewählt als der einzige Sensor zum Desicion Tree Trainieren.
 ```text
 | removed_sensor | mean_bal_acc | delta_vs_baseline | std_bal_acc |
 |----------------|--------------|-------------------|-------------|
@@ -132,6 +137,11 @@ Trained model checkpoints are stored as .keras files.
 | PS4            | 0.914259     | 0.004630          | 0.003072    |
 | FS1            | 0.936759     | 0.027130          | 0.029910    |
 
+```
+
+- Ergebniss von Ablation des Inceptiontime:
+
+```text
 ```
 
 # How to Run
@@ -167,6 +177,7 @@ Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 un
 - Zusammenfassung
     - PS2 mit wenigen, gut gewählten statistischen Merkmalen erweist sich als robuster, stabiler und leistungsfähiger als eine umfangreiche Feature-Extraktion mit tsfresh.
     - In diesem Projekt bringt komplexe Merkmalsextraktion keinen Vorteil gegenüber einfachen, domänennahen statistischen Features.
+
 
 
 
