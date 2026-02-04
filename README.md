@@ -1,6 +1,7 @@
 # Introduction ：
 This repository contains the implementation and experimental analysis for the Valve Condition Monitoring in Hydraulic Systems task.
 The project investigates both traditional machine learning(Desicion Tree) and deep learning (InceptionTime) approaches for classifying valve conditions based on multivariate sensor time-series data.
+- github: https://github.com/liyiling/Valve-Condition-Monitoring-in-Hydraulic-Systems
 
 # Packet Import:
 - import numpy as np
@@ -233,6 +234,7 @@ Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 un
 - Ergebnisse:
   - Epoch 60 ist schon ausreichend: Der Trainingsverlust sinkt gleichmäßig und konvergiert(bei epochs ca.50,60) gegen null, während die Trainingsgenauigkeit sehr schnell Werte nahe 1.0 erreicht.
   - Epoch 120 und classifier 2 bekommen wir deutliche overfitting.
+
 
 
 
