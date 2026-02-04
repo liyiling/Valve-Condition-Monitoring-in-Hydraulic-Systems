@@ -2,6 +2,29 @@
 This repository contains the implementation and experimental analysis for the Valve Condition Monitoring in Hydraulic Systems task.
 The project investigates both traditional machine learning(Desicion Tree) and deep learning (InceptionTime) approaches for classifying valve conditions based on multivariate sensor time-series data.
 
+# Packet Import:
+- import numpy as np
+- import pandas as pd
+- from sklearn.model_selection import train_test_split
+- from sklearn.metrics import classification_report, balanced_accuracy_score
+- from sklearn.utils.class_weight import compute_class_weight
+- import sys
+- from pathlib import Path
+- sys.path.append(str(Path("..").resolve()))
+- import matplotlib.pyplot as plt
+- from sklearn.metrics import accuracy_score, classification_report
+- from aeon.classification.deep_learning import InceptionTimeClassifier
+- import src.data_loader as dl
+- import importlib
+- import src.data_loader as dl
+- importlib.reload(dl)
+- import tensorflow as tf
+
+
+import inspect
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score
+
 # Projekt Structur：
 
 ```text
@@ -203,6 +226,7 @@ Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 un
 - Zusammenfassung
     - PS2 mit wenigen, gut gewählten statistischen Merkmalen erweist sich als robuster, stabiler und leistungsfähiger als eine umfangreiche Feature-Extraktion mit tsfresh.
     - In diesem Projekt bringt komplexe Merkmalsextraktion keinen Vorteil gegenüber einfachen, domänennahen statistischen Features.
+
 
 
 
