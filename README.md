@@ -1,6 +1,6 @@
 # Introduction ：
 This repository contains the implementation and experimental analysis for the Valve Condition Monitoring in Hydraulic Systems task.
-The project investigates both traditional machine learning and deep learning (InceptionTime) approaches for classifying valve conditions based on multivariate sensor time-series data.
+The project investigates both traditional machine learning(Desicion Tree) and deep learning (InceptionTime) approaches for classifying valve conditions based on multivariate sensor time-series data.
 
 # Projekt Structur：
 
@@ -203,6 +203,7 @@ Alle diese Ergebnisse liegen deutlich unter der 97 % Genauigkeit, die mit PS2 un
 - Zusammenfassung
     - PS2 mit wenigen, gut gewählten statistischen Merkmalen erweist sich als robuster, stabiler und leistungsfähiger als eine umfangreiche Feature-Extraktion mit tsfresh.
     - In diesem Projekt bringt komplexe Merkmalsextraktion keinen Vorteil gegenüber einfachen, domänennahen statistischen Features.
+
 
 
 
